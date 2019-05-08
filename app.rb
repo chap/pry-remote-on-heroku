@@ -1,4 +1,5 @@
 require "sinatra"
+require 'pry-remote'
 
 get '/*' do
   puts params.to_s
