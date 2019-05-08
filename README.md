@@ -1,4 +1,4 @@
-1. Add `pry-remote` to Gemfile
+1. Add [pry-remote](https://github.com/Mon-Ouie/pry-remote) to your app
 
 2. Add `binding.remote_pry` like you would `binding.pry`
 
