@@ -8,13 +8,15 @@
 ```
 
 4. Connect to the dyno (dyno restart required the first time):
-`heroku ps:exec --dyno worker.1`
-
-5. Run `pry-remote` on the dyno and inspect the app:
 ```
 $ heroku ps:exec --dyno worker.1
 Establishing credentials... done
 Connecting to worker.1 on ⬢ my-app... 
+~ $
+```
+
+5. Run `pry-remote` on the dyno and inspect the app:
+```
 ~ $ pry-remote
 
 From: /app/worker.rb @ line 7 :
