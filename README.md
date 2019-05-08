@@ -15,7 +15,7 @@ Connecting to worker.1 on ⬢ my-app...
 ~ $
 ```
 
-5. Run `pry-remote` on the dyno and inspect the app:
+5. Run `pry-remote` on the dyno to connect to pry:
 ```
 ~ $ pry-remote
 
